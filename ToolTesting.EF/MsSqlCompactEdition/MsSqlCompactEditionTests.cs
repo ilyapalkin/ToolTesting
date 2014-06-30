@@ -7,7 +7,7 @@
 	/// There was an error parsing the query. [Token line number,Token line offset,,Token in error,,]
 	/// (CE knows nothing about dbo)
 	/// SQL Server Compact Toolbox - https://sqlcetoolbox.codeplex.com/ 
-	///  </summary>
+	/// </summary>
 	public class MsSqlCompactEditionTests
 	{
 	}

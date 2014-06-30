@@ -33,6 +33,9 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework.Filters">
+      <HintPath>..\packages\EntityFramework.Filters.0.2.0.0\lib\net40\EntityFramework.Filters.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
@@ -61,6 +64,9 @@
   <ItemGroup>
     <Compile Include="BaseContext.cs" />
     <Compile Include="BulkOperations\BulkInsert.cs" />
+    <Compile Include="Filters\DataContext.cs" />
+    <Compile Include="Filters\DataModel.cs" />
+    <Compile Include="Filters\FiltersTest.cs" />
     <Compile Include="HowToDeleteItemsFromCollection\CustomerContext.cs" />
     <Compile Include="HowToDeleteItemsFromCollection\DeletingObjectFromCollection.cs" />
     <Compile Include="EntityFrameworkTestBase.cs" />
